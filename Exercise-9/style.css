@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    display: flex;
+}
+
+article {
+    margin: 15px;
+    border: 1px solid lightgray;
+    border-radius: 25px;
+    overflow: hidden;
+    width: 300px;
+    min-width: 300px;
+    background: linear-gradient(135deg, rgb(150,150,150), rgb(256, 256, 256))
+}
+
+.info-div {
+    display: flex;
+}
+
+.profile-img-div {
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    background-color: aqua;
+    overflow: hidden;
+    margin: 5px;
+}
+
+.date-div {
+    color: white;
+    margin-top: 5px;
+    font-size: 12px;
+}
+
+.info-text-span {
+    margin: 10px;
+}
+
+.options-span {
+    margin-left: auto;
+    margin-right: 20px;
+    font-weight: bold;
+    font-size: 24px;
+    align-self: center;
+}
+
+.img-div {
+    display: flex;
+    background-color: rgb(134, 142, 149);
+    height: 200px;
+}
+img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain
+}
+
+.social-media-div {
+    display: flex;
+}
+
+.social-media-button-div {
+    height: 25px;
+    width: 25px;
+    background-color: pink;
+    border-radius: 25px;
+    margin-left: 5px;
+}
+
+.seperator {
+    height: 1px;
+    background-color: rgb(223, 223, 223);
+
+}
+
+.cell {
+    padding: 10px;
+}
+
+.h3-div {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 375px) {
+    body {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        flex-wrap: wrap;
+    }
+}

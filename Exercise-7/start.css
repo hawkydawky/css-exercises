@@ -1,0 +1,43 @@
+body {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas: 
+    "green-area green-area green-area"
+    "yellow-area red-area blue-area"
+    "yellow-area red-area blue-area"
+    "orange-area orange-area blue-area";
+}
+
+#yellow-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    
+}
+
+#red-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+#yellow {
+    grid-area: yellow-area;
+}
+
+#red {
+    grid-area: red-area;
+}
+
+#blue {
+    grid-area: blue-area;
+}
+
+#green {
+    grid-area: green-area;
+}
+
+#orange {
+    grid-area: orange-area;
+}

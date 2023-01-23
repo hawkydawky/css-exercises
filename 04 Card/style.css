@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+article {
+    margin: 5px;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+    overflow: hidden;
+    width: 300px;
+}
+
+.img-div {
+    display: flex;
+    background-color: rgb(134, 142, 149);
+    height: 200px;
+}
+img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain
+}
+
+.seperator {
+    height: 1px;
+    background-color: rgb(223, 223, 223);
+
+}
+
+.cell {
+    padding: 10px;
+}
+
+.h3-div {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
